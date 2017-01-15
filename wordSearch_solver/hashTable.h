@@ -11,7 +11,7 @@ public:
     HashTable();     
     void insert(string word);
     int tablesize;  
-    vector<list<string> > hashtable;
+    vector<list<string>> hashtable;
     bool find(string word);
     void resize(unsigned int x);
  
