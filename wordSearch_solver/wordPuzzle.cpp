@@ -1,10 +1,3 @@
- // Aadil Abbas
- // aa4zw
- // 10.15.16
- // wordPuzzle.cpp
- // 0.026382 seconds
- // Big Theta (n^2)
- 
 #include <iostream>
 #include <cstdlib>
 #include <fstream>
@@ -141,12 +134,7 @@ int main(int argc, char* argv[]) {
         cout << "Found all words in " << timer.getTime() << " seconds" << endl;
         cout << ((int)timer.getTime()) * 1000 << endl;
     return 0;
-}
-
-    
-    
-    
-    
+}    
 
 
 bool readInTable (string filename, int &rows, int &cols) {
