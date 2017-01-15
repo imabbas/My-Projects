@@ -1,7 +1,3 @@
-// Aadil Abbas
-// aa4zw
-// 10.16.16
-// hashTable.cpp
 
 #include <iostream>
 #include <string.h>
@@ -34,10 +30,8 @@ bool HashTable::find(string word) {
     
 }
 
-void HashTable::insert(string word) {
-    
-    hashtable.at(hash(word)).push_back(word);
-    
+void HashTable::insert(string word) { 
+    hashtable.at(hash(word)).push_back(word); 
 }
 
 unsigned int HashTable::hash(string word) {
