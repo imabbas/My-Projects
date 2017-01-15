@@ -1,8 +1,3 @@
-// Aadil Abbas
-// aa4zw
-// 10.16.16
-// hashTable.h
-
 #include <iostream>
 #include <string>
 #include <list>
@@ -13,25 +8,14 @@ using namespace std;
 class HashTable {
     
 public:
-    HashTable();
-        
+    HashTable();     
     void insert(string word);
-    int tablesize;
-    
+    int tablesize;  
     vector<list<string> > hashtable;
-
     bool find(string word);
-    
-
-    
     void resize(unsigned int x);
-
-    
-    
-    
-private:
-    
+ 
+private: 
     unsigned int hash(string word);
-    
-    
+       
 };
