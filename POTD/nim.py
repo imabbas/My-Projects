@@ -1,13 +1,9 @@
-# Aadil Abbas (aa4zw)
 
 print('The Game of Nim')
 print("")
 
 marbles = int(input('Number of marbles are in the pile: '))
 start = input('Who will start? (p or c): ')
-
-# marble_range = '1-' + str(max_marbles)
-
 
 if start == 'p':
     turn = True
@@ -18,9 +14,7 @@ new_pile = (2**x - 1)
 computer_intake = 0
 computer_marbles = 0
 
-
 while marbles > 1:
-
     print('The pile has ' + str(marbles) + ' marbles in it.')
     while turn == True:
         max_marbles = int(marbles) // 2
