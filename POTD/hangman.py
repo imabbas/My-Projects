@@ -1,4 +1,3 @@
-# Aadil Abbas (aa4zw)
 
 word = input('Enter a word: ')
 word = word.upper()
