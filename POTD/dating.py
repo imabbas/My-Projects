@@ -1,4 +1,3 @@
-# Aadil Abbas (aa4zw)
 
 age = int(input("How old are you? "))
 min_age = int(age/2)+7
