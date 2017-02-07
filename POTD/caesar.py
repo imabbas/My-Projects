@@ -1,4 +1,3 @@
-# Aadil Abbas (aa4zw)
 
 cipher = input('Enter your cipher text: ')
 cipher = cipher.lower()
