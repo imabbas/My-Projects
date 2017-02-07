@@ -1,6 +1,3 @@
-# Christine Farinas (caf5ct), Aadil Abbas (aa4zw)
-
-import re
 import urllib.request
 
 def findAll(url):
@@ -16,8 +13,6 @@ def findAll(url):
         email = email.lstrip("mailto:")
         if email not in emails:
             emails.append(email)
-    # emails.sort()
-    # print(len(emails))
     return emails
 
 print(findAll("http://www.sys.virginia.edu/people/faculty.html"))
