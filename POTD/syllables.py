@@ -1,4 +1,3 @@
-# Aadil Abbas (aa4zw)
 
 first = str(input('Please give me a word: '))
 word = list(first)
