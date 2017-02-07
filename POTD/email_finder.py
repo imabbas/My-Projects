@@ -1,4 +1,3 @@
-# Aadil Abbas (aa4zw), Christine Farinas (caf5ct)
 
 import urllib.request
 import re
