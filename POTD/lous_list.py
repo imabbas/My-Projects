@@ -1,9 +1,4 @@
-# Aadil Abbas (aa4zw)
-
 import urllib.request
-
-
-
 
 def instructors(department):
     link = 'http://stardock.cs.virginia.edu/louslist/Courses/view/'
