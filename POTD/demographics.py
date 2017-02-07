@@ -1,4 +1,3 @@
-# Aadil Abbas (aa4zw)
 
 GENDER = 0
 AGE = 1
