@@ -1,5 +1,3 @@
-# Aadil Abbas (aa4zw)
-
 word_list = str(input('Give me 10 words!: '))
 words = word_list.lower()
 words = words.split()
