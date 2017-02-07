@@ -1,4 +1,3 @@
-# Aadil Abbas (aa4zw)
 
 number = input('Type a credit card number (just digits): ')
 credit = number
