@@ -1,4 +1,3 @@
-# Aadil Abbas (aa4zw)
 
 import random
 
